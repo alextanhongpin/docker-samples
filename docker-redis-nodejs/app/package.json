@@ -1,0 +1,16 @@
+{
+  "name": "docker-node-redis",
+  "version": "1.0.0",
+  "description": "nodejs + redis with dockercompose",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "alextanhongpin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "redis": "^2.7.1"
+  }
+}
