@@ -1,2 +1,2 @@
-docker-redis-nodejs/app/node_modules
-docker-redis-nodejs/app/npm-debug.log
+redis-node/app/node_modules
+redis-node/app/npm-debug.log
