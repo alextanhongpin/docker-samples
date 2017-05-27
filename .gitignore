@@ -1,2 +1,5 @@
 redis-node/app/node_modules
 redis-node/app/npm-debug.log
+
+rabbitmq/app/node_modules
+rabbitmq/app/npm-debug.log

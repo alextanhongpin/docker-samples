@@ -1,0 +1,18 @@
+{
+  "name": "rabbitmq",
+  "version": "1.0.0",
+  "description": "Simple node js with docker-compose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "alextanhongpin",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

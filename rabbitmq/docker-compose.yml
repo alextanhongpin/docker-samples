@@ -1,0 +1,17 @@
+version: "2"
+services:
+  rabbitmq:
+    image: rabbitmq
+    ports:
+      - "5672:5672"
+  web:
+    image: alextanhongpin/node-rabbitmq
+    ports: 
+      - "8080:8080"
+    links:
+      - "rabbitmq"
+    depends_on:
+      - "rabbitmq"
+    environment:
+      - PORT=8080
+      - RABBITMQ_HOST=amqp://rabbitmq
